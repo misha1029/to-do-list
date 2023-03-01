@@ -1,0 +1,12 @@
+.actions {
+	@apply flex items-center mt-2 ml-5;
+
+	> button {
+		@apply bg-transparent text-xl text-dark-green
+        opacity-80 transition-opacity hover:opacity-100;
+
+		&:first-child {
+			@apply mr-4;
+		}
+	}
+}
